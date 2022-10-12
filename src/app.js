@@ -14,6 +14,7 @@ app.use(cors())
 
 require('./route.js')(app)
 
+app.put
 
 let port = process.env.PORT || config.port
 
